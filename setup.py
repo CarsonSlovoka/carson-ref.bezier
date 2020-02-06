@@ -1,10 +1,10 @@
 from distutils.core import setup
 from pathlib import Path
 
-VERSION_NUMBER = '0.0.0.dev3'
+VERSION_NUMBER = '0.0.2'
 DOWNLOAD_VERSION = '0.0.0'
 # LIST_SCRIPTS = [str(script_file) for script_file in Path('Scripts').glob('*.*')]
-GITHUB_URL = 'https://github.com/CarsonSlovoka/carson-tool.create_template'
+GITHUB_URL = 'https://github.com/CarsonSlovoka/carson-ref.bezier/tree/master'
 
 with open('README.rst', encoding='utf-8') as f:
     LONG_DESCRIPTION = f.read()
@@ -35,7 +35,7 @@ setup(
     keywords=['templates'],
 
     download_url=f'{GITHUB_URL}/tarball/v{DOWNLOAD_VERSION}',
-    python_requires='>=3.6.2,',
+    python_requires='>=3.6.2, !=3.8.*',
 
     zip_safe=False,
     classifiers=[  # https://pypi.org/classifiers/
@@ -47,6 +47,5 @@ setup(
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
     ]
 )
