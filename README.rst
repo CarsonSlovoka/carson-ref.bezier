@@ -36,4 +36,4 @@ USAGE
     LButton| set point
 
 
-.. _`Apache 2.0`: https://github.com/CarsonSlovoka/carson-ref.bezier/blob/Dev/LICENSE
+.. _`Apache 2.0`: https://github.com/CarsonSlovoka/carson-ref.bezier/blob/master/LICENSE
